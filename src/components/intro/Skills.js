@@ -34,7 +34,7 @@ function Skills() {
                 <span>∞∞∞</span>
             </Grid>
             <Grid item md={6} xs={12} style={{display: 'flex', justifyContent: 'center'}}>
-                <Card style={{height: "18rem", width: "20rem", marginBottom: '1rem'}}>
+                <Card style={{height: "15rem", width: "20rem", marginBottom: '1rem', paddingTop: '1rem'}}>
                     <ListItemIcon>
                         <Avatar alt="Profile Picture" src={js}/>
                         <Avatar alt="Profile Picture" src={ts}/>
@@ -56,7 +56,7 @@ function Skills() {
                 </Card>
             </Grid>
             <Grid item md={6} xs={12} style={{display: 'flex', justifyContent: 'center'}}>
-                <Card style={{height: "18rem", width: "20rem", marginBottom: '1rem'}}>
+                <Card style={{height: "15rem", width: "20rem", marginBottom: '1rem', paddingTop: '1rem'}}>
                     <ListItemIcon>
                         <Avatar alt="Profile Picture" src={jest}/>
                         <Avatar alt="Profile Picture" src={cypress}/>
