@@ -2,9 +2,9 @@ import React from 'react';
 import MenuItem from "@material-ui/core/MenuItem";
 import IconButton from "@material-ui/core/IconButton";
 import Avatar from "@material-ui/core/Avatar";
-import aboutIcon from "../images/icons8-info-squared-64.png";
-import projectIcon from "../images/icons8-google-code-64.png";
-import blogIcon from "../images/icons8-google-blog-search-512.png";
+import aboutIcon from "../../images/icons8-info-squared-64.png";
+import projectIcon from "../../images/icons8-google-code-64.png";
+import blogIcon from "../../images/icons8-google-blog-search-512.png";
 import Menu from "@material-ui/core/Menu";
 
 function MobileMenu(props) {
