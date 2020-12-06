@@ -1,0 +1,24 @@
+.page-footer {
+    display: flex;
+    flex-direction: column-reverse;
+    background: #2E3047;
+}
+
+.page-footer div {
+    display: flex;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+/* MQ */
+@media screen and (min-width: 550px) {
+    .page-footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .page-footer div {
+        margin-bottom: 0;
+    }
+}
