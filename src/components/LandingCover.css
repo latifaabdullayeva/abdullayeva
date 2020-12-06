@@ -1,0 +1,63 @@
+#box1 {
+    position: absolute;
+    width: 65vmin;
+    height: 100%;
+    background-image: url("../images/myPhoto.png");
+    background-repeat: no-repeat;
+    left: 30%;
+    top: 5%;
+    animation: anim 1s forwards, anim2 2s forwards 2s;
+}
+
+#box1:after {
+    content: '';
+    position: absolute;
+    width: 65vmin;
+    height: 100%;
+    background-image: url("../images/myPhotoBlackWhite.png");
+    background-repeat: no-repeat;
+    left: 0;
+    z-index: -1;
+}
+
+@keyframes anim {
+    from {
+        top: 100%;
+    }
+    to {
+        bottom: 0;
+    }
+}
+
+@keyframes anim2 {
+    from {
+        left: 30%;
+        width: 65vmin;
+    }
+    to {
+        left: 50%;
+        width: 0;
+    }
+}
+
+#box2 {
+    position: absolute;
+    top: 17rem;
+    overflow: hidden;
+}
+
+#text {
+    position: relative;
+    left: -100%;
+    animation: anim3 1s forwards 2s;
+    color: white;
+}
+
+@keyframes anim3 {
+    from {
+        left: -100%
+    }
+    to {
+        left: 0;
+    }
+}
