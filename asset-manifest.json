@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/abdullayeva/static/css/main.dd3e832a.chunk.css",
+    "main.js": "/abdullayeva/static/js/main.a6a18465.chunk.js",
+    "main.js.map": "/abdullayeva/static/js/main.a6a18465.chunk.js.map",
+    "runtime-main.js": "/abdullayeva/static/js/runtime-main.45ae32f1.js",
+    "runtime-main.js.map": "/abdullayeva/static/js/runtime-main.45ae32f1.js.map",
+    "static/js/2.d50416a8.chunk.js": "/abdullayeva/static/js/2.d50416a8.chunk.js",
+    "static/js/2.d50416a8.chunk.js.map": "/abdullayeva/static/js/2.d50416a8.chunk.js.map",
+    "static/js/3.62866910.chunk.js": "/abdullayeva/static/js/3.62866910.chunk.js",
+    "static/js/3.62866910.chunk.js.map": "/abdullayeva/static/js/3.62866910.chunk.js.map",
+    "index.html": "/abdullayeva/index.html",
+    "static/css/main.dd3e832a.chunk.css.map": "/abdullayeva/static/css/main.dd3e832a.chunk.css.map",
+    "static/js/2.d50416a8.chunk.js.LICENSE.txt": "/abdullayeva/static/js/2.d50416a8.chunk.js.LICENSE.txt",
+    "static/media/bachelorUni.2089e523.png": "/abdullayeva/static/media/bachelorUni.2089e523.png",
+    "static/media/LandingCover.css": "/abdullayeva/static/media/black.940b678b.jpg",
+    "static/media/ergosignIntern.d3a082f8.png": "/abdullayeva/static/media/ergosignIntern.d3a082f8.png",
+    "static/media/iconCypress.930666c3.png": "/abdullayeva/static/media/iconCypress.930666c3.png",
+    "static/media/iconJest.5ea6b1d5.png": "/abdullayeva/static/media/iconJest.5ea6b1d5.png",
+    "static/media/icons8-google-blog-search-512.32ede8b0.png": "/abdullayeva/static/media/icons8-google-blog-search-512.32ede8b0.png",
+    "static/media/juniorAchScholar.fbbe82b9.gif": "/abdullayeva/static/media/juniorAchScholar.fbbe82b9.gif",
+    "static/media/logo_transparent.1a43081a.png": "/abdullayeva/static/media/logo_transparent.1a43081a.png",
+    "static/media/mastreUni.7d8f962f.png": "/abdullayeva/static/media/mastreUni.7d8f962f.png",
+    "static/media/maxPlankScholar.c53d82cb.png": "/abdullayeva/static/media/maxPlankScholar.c53d82cb.png",
+    "static/media/ministryIntern.fde1caa6.png": "/abdullayeva/static/media/ministryIntern.fde1caa6.png",
+    "static/media/myPhotoBlackWhite.dd58925f.png": "/abdullayeva/static/media/myPhotoBlackWhite.dd58925f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45ae32f1.js",
+    "static/js/2.d50416a8.chunk.js",
+    "static/css/main.dd3e832a.chunk.css",
+    "static/js/main.a6a18465.chunk.js"
+  ]
+}
