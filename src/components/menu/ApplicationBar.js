@@ -1,5 +1,5 @@
-import logoTransparent from '../images/logo_transparent.png';
-import './App.css';
+import logoTransparent from '../../images/logo_transparent.png';
+import '../App.css';
 import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -13,6 +13,7 @@ import MobileMenu from "./MobileMenu";
 const useStyles = makeStyles((theme) => ({
     grow: {
         flexGrow: 1,
+        background: '#2E3047'
     },
     title: {
         display: 'none',
@@ -46,8 +47,8 @@ function ApplicationBar() {
     };
 
     return (
-        <div className={classes.grow}>
-            <AppBar position="static">
+        <div>
+            <AppBar position="static"  className={classes.grow}>
                 <Toolbar>
                     <img src={logoTransparent} className="App-logo" alt="logo"/>
                     <Typography className={classes.title} variant="h6" noWrap>
