@@ -1,0 +1,28 @@
+.page-main {
+    --main-white-color: #ffffff;
+    --main-black-color: black;
+    --main-purple-color: #707793;
+    background: var(--main-purple-color) url("../../images/black.jpg") no-repeat center / cover;
+    background-blend-mode: luminosity;
+    color: var(--main-white-color);
+}
+
+.boxImage{
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    0%  {left:200px;}
+    25%   {left:0;}
+}
+
+.boxText{
+    position: relative;
+    animation-name: example2;
+    animation-duration: 4s;
+}
+@keyframes example2 {
+    0%  {right:200px}
+    25%   {right:0;}
+}
