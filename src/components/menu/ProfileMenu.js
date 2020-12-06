@@ -1,6 +1,4 @@
 import React, {useState} from 'react';
-import Avatar from "@material-ui/core/Avatar";
-import profilePhoto from "../images/profilePhoto.jpeg";
 import IconButton from "@material-ui/core/IconButton";
 import MenuItem from "@material-ui/core/MenuItem";
 import MailIcon from "@material-ui/icons/Mail";
@@ -9,6 +7,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import Menu from "@material-ui/core/Menu";
 import Snackbar from "@material-ui/core/Snackbar";
 import MuiAlert from "@material-ui/lab/Alert";
+import Typography from "@material-ui/core/Typography";
 
 function Alert(props) {
     return <MuiAlert elevation={6} variant="filled" {...props} />;
@@ -61,27 +60,31 @@ function ProfileMenu() {
         >
             <MenuItem onClick={copyEmail}>
                 <IconButton aria-label="show 4 new mails" color="inherit">
-                    <MailIcon/>
+                    <MailIcon style={{color: '#2E3047'}}/>
                 </IconButton>
                 Email
             </MenuItem>
             <MenuItem>
-                <IconButton aria-label="show 4 new mails" color="inherit">
-                    <GitHubIcon/>
-                </IconButton>
                 <a href="https://github.com/latifaabdullayeva"
                    target="_blank"
                    rel="noopener noreferrer"
-                   style={{textDecoration: 'none', color: 'black'}}>Github</a>
+                   style={{textDecoration: 'none', color: 'black'}}>
+                    <IconButton aria-label="show 4 new mails" color="inherit">
+                        <GitHubIcon style={{color: '#2E3047'}}/>
+                    </IconButton>
+                    Github
+                </a>
             </MenuItem>
             <MenuItem>
-                <IconButton aria-label="show 4 new mails" color="inherit">
-                    <LinkedInIcon/>
-                </IconButton>
                 <a href="https://www.linkedin.com/in/latifa-abdullayeva"
                    target="_blank"
                    rel="noopener noreferrer"
-                   style={{textDecoration: 'none', color: 'black'}}>LinkedIn</a>
+                   style={{textDecoration: 'none', color: 'black'}}>
+                    <IconButton aria-label="show 4 new mails" color="inherit">
+                        <LinkedInIcon style={{color: '#2E3047'}}/>
+                    </IconButton>
+                    LinkedIn
+                </a>
             </MenuItem>
         </Menu>
     )
@@ -95,7 +98,10 @@ function ProfileMenu() {
                 onClick={handleProfileMenuOpen}
                 color="inherit"
             >
-                <Avatar alt="Profile Picture" src={profilePhoto}/>
+                {/*<Avatar alt="Profile Picture" src={profilePhoto}/>*/}
+                <Typography variant="button" noWrap>
+                    Contacts
+                </Typography>
             </IconButton>
             {renderMenu}
             <Snackbar open={open} autoHideDuration={2500} onClose={handleClose}>
