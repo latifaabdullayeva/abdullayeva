@@ -1,35 +1,37 @@
 import './App.css';
 import React from 'react';
 import ApplicationBar from "./menu/ApplicationBar";
-import LandingCover from "./intro/LandingCover";
 import Footer from "./Footer";
-import {Divider} from "@material-ui/core";
-import Education from "./intro/Education";
-import WorkExperience from "./intro/WorkExperience";
-import Accomplishments from "./intro/Accomplishments";
-import Skills from "./intro/Skills";
-
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import About from "./About";
+import Projects from "./Projects";
+import Blog from "./Blog";
+import Home from "./intro/Home";
+import Penny from "./projects/Penny";
+import Musicorum from "./projects/Musicorum";
+import AutonomousSystem from "./projects/AutonomousSystem";
+import Abdullayeva from "./projects/Abdullayeva";
 
 function App() {
     return (
-        <div>
+        <Router>
             <ApplicationBar/>
-            <LandingCover/>
-            <Divider/>
-            <Education/>
-            <Divider/>
-            <WorkExperience/>
-            <Divider/>
-            <Accomplishments/>
-            <Divider/>
-            <Skills/>
+            <Switch>
+                <Route path='/abdullayeva' exact component={Home}/>
+                <Route path='/about' exact component={About}/>
+                <Route path='/projects' exact component={Projects}/>
+                <Route path='/autonomousSystem' exact component={AutonomousSystem}/>
+                <Route path='/projectAbdullayeva' exact component={Abdullayeva}/>
+                <Route path='/musicorum' exact component={Musicorum}/>
+                <Route path='/penny' exact component={Penny}/>
+                <Route path='/blog' exact component={Blog}/>
+            </Switch>
             <Footer/>
-        </div>
+        </Router>
     );
 }
 
 export default App;
-
 
 // #2c66ff
 // #a630ff
