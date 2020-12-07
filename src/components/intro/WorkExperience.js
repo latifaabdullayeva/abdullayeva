@@ -30,7 +30,7 @@ function WorkExperience() {
                 <Typography variant="h3">Work Experience</Typography>
                 <span>∞∞∞</span>
             </Grid>
-            <Grid item md={4} sm={6} xs={12} style={{display: 'flex', justifyContent: 'center'}}>
+            <Grid item lg={4} sm={6} xs={12} style={{display: 'flex', justifyContent: 'center'}}>
                 <Card className={classes.root} style={{height: "15rem", width: "30rem", marginBottom: '1rem'}}>
                     <CardHeader
                         avatar={<Avatar aria-label="masters" className={classes.large} src={ergosignIntern}/>}
@@ -50,7 +50,7 @@ function WorkExperience() {
                     </CardContent>
                 </Card>
             </Grid>
-            <Grid item md={4} sm={6} xs={12} style={{display: 'flex', justifyContent: 'center'}}>
+            <Grid item lg={4} sm={6} xs={12} style={{display: 'flex', justifyContent: 'center'}}>
                 <Card className={classes.root} style={{height: "15rem", width: "30rem", marginBottom: '1rem'}}>
                     <CardHeader
                         avatar={<Avatar aria-label="bachelors" className={classes.large} src={ministryIntern}/>}
@@ -64,7 +64,7 @@ function WorkExperience() {
                     </CardContent>
                 </Card>
             </Grid>
-            <Grid item md={4} xs={12} style={{display: 'flex', justifyContent: 'center'}}>
+            <Grid item lg={4} xs={12} style={{display: 'flex', justifyContent: 'center'}}>
                 <Card className={classes.root} style={{height: "15rem", width: "30rem", marginBottom: '1rem'}}>
                     <CardHeader
                         avatar={<Avatar aria-label="masters" className={classes.large} src={sazzIntern}/>}
