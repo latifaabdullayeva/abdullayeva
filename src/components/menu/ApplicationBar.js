@@ -1,5 +1,5 @@
 import logoTransparent from '../../images/logo_transparent.png';
-import '../App.css';
+import './Menu.css';
 import React from 'react';
 import {makeStyles} from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -9,6 +9,7 @@ import MoreIcon from '@material-ui/icons/MoreVert';
 import Typography from "@material-ui/core/Typography";
 import ProfileMenu from "./ProfileMenu";
 import MobileMenu from "./MobileMenu";
+import {NavLink} from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
     grow: {
@@ -48,7 +49,7 @@ function ApplicationBar() {
 
     return (
         <div>
-            <AppBar position="static"  className={classes.grow}>
+            <AppBar position="static" className={classes.grow}>
                 <Toolbar>
                     <img src={logoTransparent} className="App-logo" alt="logo"/>
                     <Typography className={classes.title} variant="h6" noWrap>
@@ -56,21 +57,34 @@ function ApplicationBar() {
                     </Typography>
                     <div className={classes.grow}/>
                     <div className={classes.sectionDesktop}>
-                        <IconButton color="inherit">
-                            <Typography className={classes.title} variant="button" noWrap>
-                                About
-                            </Typography>
-                        </IconButton>
-                        <IconButton color="inherit">
-                            <Typography className={classes.title} variant="button" noWrap>
-                                Projects
-                            </Typography>
-                        </IconButton>
-                        <IconButton color="inherit">
-                            <Typography className={classes.title} variant="button" noWrap>
-                                Blog
-                            </Typography>
-                        </IconButton>
+                        <NavLink to="/abdullayeva" activeClassName="is-active" style={{textDecoration: 'none', color: 'white'}} exact={true}>
+                            <IconButton color="inherit">
+                                <Typography className={classes.title} variant="button" noWrap>
+                                    Home
+                                </Typography>
+                            </IconButton>
+                        </NavLink>
+                        <NavLink to="/about" activeClassName="is-active" style={{textDecoration: 'none', color: 'white'}} exact={true}>
+                            <IconButton color="inherit">
+                                <Typography className={classes.title} variant="button" noWrap>
+                                    About
+                                </Typography>
+                            </IconButton>
+                        </NavLink>
+                        <NavLink to="/projects" activeClassName="is-active" style={{textDecoration: 'none', color: 'white'}} exact={true}>
+                            <IconButton color="inherit">
+                                <Typography className={classes.title} variant="button" noWrap>
+                                    Projects
+                                </Typography>
+                            </IconButton>
+                        </NavLink>
+                        <NavLink to="/blog" activeClassName="is-active" style={{textDecoration: 'none', color: 'white'}} exact={true}>
+                            <IconButton color="inherit">
+                                <Typography className={classes.title} variant="button" noWrap>
+                                    Blog
+                                </Typography>
+                            </IconButton>
+                        </NavLink>
                     </div>
                     <ProfileMenu/>
                     <div className={classes.sectionMobile}>
