@@ -8,6 +8,8 @@ import CardContent from "@material-ui/core/CardContent";
 import bachelorsUni from "../../images/bachelorUni.png";
 import React from "react";
 import {makeStyles} from "@material-ui/core/styles";
+import CardActions from "@material-ui/core/CardActions";
+import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -31,33 +33,56 @@ function Education() {
             </Grid>
 
             <Grid item sm={6} xs={12} style={{display: 'flex', justifyContent: 'center'}}>
-                <Card className={classes.root} style={{height: "13rem", width: "30rem", marginBottom: '1rem'}}>
+                <Card className={classes.root} style={{width: "30rem", marginBottom: '1rem'}}>
                     <CardHeader
+                        style={{height: "3rem"}}
                         avatar={<Avatar aria-label="masters" className={classes.large} src={mastersUni}/>}
                         title="University of Saarland"
                         subheader="Master’s degree in CS"
                     />
-                    <CardContent>
+                    <CardContent style={{height: "5rem"}}>
                         <Typography variant="body2" color="textSecondary" component="p">
                             The master's thesis project on the implementation and study of the interaction
-                            between autonomous devices in Social Internet of Things environment. Graded 100/100
+                            between autonomous devices in IoT environment. Thesis grade:
+                            1.0-‘excellent’ according to German Grading System.
                         </Typography>
                     </CardContent>
+
+                    <CardActions style={{height: "3rem"}}>
+                        <a href="https://www.uni-saarland.de/en/home.html"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           style={{textDecoration: 'none', color: 'black'}}>
+                            <Button size="small" color="primary">Learn More</Button>
+                        </a>
+                    </CardActions>
                 </Card>
             </Grid>
 
             <Grid item sm={6} xs={12} style={{display: 'flex', justifyContent: 'center'}}>
-                <Card className={classes.root} style={{height: "13rem", width: "30rem", marginBottom: '1rem'}}>
+                <Card className={classes.root} style={{width: "30rem", marginBottom: '1rem'}}>
                     <CardHeader
+                        style={{height: "3rem"}}
                         avatar={<Avatar aria-label="bachelors" className={classes.large} src={bachelorsUni}/>}
                         title="Azerbaijan State Oil Academy"
                         subheader="Bachelor’s degree in CS"
                     />
-                    <CardContent>
+                    <CardContent style={{height: "5rem"}}>
                         <Typography variant="body2" color="textSecondary" component="p">
-                            Graduated with Granted Honors Degree.
+                            Grade Point Average (GPA) is 93/100.
+                            <br/>
+                            Graduated with honors from in Computer Science major with the focus on Mathematics.
                         </Typography>
                     </CardContent>
+
+                    <CardActions style={{height: "3rem"}}>
+                        <a href="http://asoiu.edu.az/en"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           style={{textDecoration: 'none', color: 'black'}}>
+                            <Button size="small" color="primary">Learn More</Button>
+                        </a>
+                    </CardActions>
                 </Card>
             </Grid>
         </Grid>
