@@ -37,18 +37,22 @@ function Projects() {
                 </Breadcrumbs>
             </Grid>
             <Grid item xs={12} sm={6} md={4} style={{justify: 'space-between', marginBottom: '1rem'}}>
-                <Card className={classes.root}>
-                    <CardActionArea>
-                        {/*<Link to="/tracks" style={{textDecoration: 'none', color: 'black'}}>*/}
-                        <CardMedia className={classes.media}
-                                   image={autonom}
-                                   src={autonom}
-                        />
-                        <GridListTileBar title={"Autonomous System"}
-                                         subtitle={<span>Master's thesis project</span>}/>
-                        {/*</Link>*/}
-                    </CardActionArea>
-                </Card>
+                <NavLink to="/autonomousSystem" activeClassName="is-active"
+                         style={{textDecoration: 'none', color: 'white'}}
+                         exact={true}>
+                    <Card className={classes.root}>
+                        <CardActionArea>
+                            {/*<Link to="/tracks" style={{textDecoration: 'none', color: 'black'}}>*/}
+                            <CardMedia className={classes.media}
+                                       image={autonom}
+                                       src={autonom}
+                            />
+                            <GridListTileBar title={"Autonomous System"}
+                                             subtitle={<span>Master's thesis project</span>}/>
+                            {/*</Link>*/}
+                        </CardActionArea>
+                    </Card>
+                </NavLink>
             </Grid>
             <Grid item xs={12} sm={6} md={4} style={{justify: 'space-between', marginBottom: '1rem'}}>
                 <Card className={classes.root}>
