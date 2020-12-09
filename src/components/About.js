@@ -43,8 +43,7 @@ function About() {
                     <Typography paragraph>
                         Most of the experience that I got comes from the university course in web development, my thesis
                         project, and my internship at Ergosign GmbH.
-
-                        <ol>
+                        <ul>
                             <li>
                                 Student Project in Web development course. The course project in web development was
                                 based on the Angular framework where I've designed a web app for communication between
@@ -62,7 +61,7 @@ function About() {
                                 it. The service discovery is implemented using mDNS, while proximity measurements are
                                 taken using Bluetooth and AltBeacon library on Android. Here is the repository:
                             </li>
-                        </ol>
+                        </ul>
                         <a href="https://github.com/latifaabdullayeva/autonomous-system-thesis"
                            target="_blank"
                            rel="noopener noreferrer"
