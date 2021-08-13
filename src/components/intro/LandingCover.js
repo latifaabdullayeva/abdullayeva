@@ -45,9 +45,7 @@ function LandingCover() {
                 <Grid class="boxText" item sm={10} md={5}
                       style={{display: 'flex', justifyContent: 'center', flexDirection: 'column'}}>
                     <Typography variant="h3">Hello! I'm Latifa</Typography>
-                    <Typography variant="caption"> I have recently graduated with a master's degree in computer science
-                        from the University of
-                        Saarland.</Typography>
+                    <Typography variant="caption" style={{width: "30em"}}> I'm a Software Developer from Azerbaijan. I am passionate about writing articles on Artificial Intelligence, Internet of Things, Development, User Experience, and more.</Typography>
                 </Grid>
                 <Grid class="boxImage" item sm={10} md={5} style={{ }}>
                     <img src={myPhoto} alt={"sonfbs"} style={{height: '20rem', opacity:'0.7'}}/>

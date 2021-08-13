@@ -11,7 +11,7 @@ import Typography from "@material-ui/core/Typography";
 import CardActions from "@material-ui/core/CardActions";
 import Button from "@material-ui/core/Button";
 import {makeStyles} from "@material-ui/core/styles";
-import git from "../images/blogs/git.jpg"
+import filterbubble from "../images/blogs/filterbubble.png"
 import hri from "../images/blogs/hri.jpg"
 import proxemics from "../images/blogs/proxemics.png"
 import uCtoIoT from "../images/blogs/uCtoIoT.jpeg"
@@ -56,9 +56,12 @@ function Blog() {
                     <Chip label="IoT" style={{background:'#3f51b5', color: 'white'}}/>
                     <Chip label="SIoT" style={{background:'#673ab7', color: 'white'}}/>
                     <CardActions style={{height: '3rem'}}>
-                        <Button size="small" color="primary">
-                            Learn More
-                        </Button>
+                        <a href="https://latifaabdullayeva.medium.com/what-changed-from-ubiquitous-computing-to-the-social-internet-of-things-siot-31df7269b4b8"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           style={{textDecoration: 'none', color: 'black'}}>
+                            <Button size="small" color="primary">Learn More</Button>
+                        </a>
                     </CardActions>
                 </Card>
             </Grid>
@@ -81,9 +84,12 @@ function Blog() {
                     <Chip label="IoT" style={{background:'#3f51b5', color: 'white'}}/>
                     <Chip label="Proxemics" style={{background:'#00bcd4', color: 'white'}}/>
                     <CardActions style={{height: '3rem'}}>
-                        <Button size="small" color="primary">
-                            Learn More
-                        </Button>
+                        <a href="https://latifaabdullayeva.medium.com/the-application-of-proxemics-on-the-internet-of-things-9217155085a5"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           style={{textDecoration: 'none', color: 'black'}}>
+                            <Button size="small" color="primary">Learn More</Button>
+                        </a>
                     </CardActions>
                 </Card>
             </Grid>
@@ -107,9 +113,12 @@ function Blog() {
                     <Chip label="Robotics" style={{background:'#e91e63', color: 'white'}}/>
                     <Chip label="HRI" style={{background:'#03a9f4', color: 'white'}}/>
                     <CardActions style={{height: '3rem'}}>
-                        <Button size="small" color="primary">
-                            Learn More
-                        </Button>
+                        <a href="https://latifaabdullayeva.medium.com/the-role-of-emotions-in-human-robot-interaction-hri-d9c787c8b6b3"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           style={{textDecoration: 'none', color: 'black'}}>
+                            <Button size="small" color="primary">Learn More</Button>
+                        </a>
                     </CardActions>
                 </Card>
             </Grid>
@@ -120,21 +129,24 @@ function Blog() {
                             component="img"
                             alt="Contemplative Reptile"
                             height="200"
-                            image={git}
+                            image={filterbubble}
                             title="Contemplative Reptile"
                         />
                         <CardContent style={{height: '3rem'}}>
                             <Typography gutterBottom variant="subtitle1" component="h2">
-                                How to deploy web application to Github pages
+                                Пузыри фильтров и почему вам о них стоит знать
                             </Typography>
                         </CardContent>
                     </CardActionArea>
-                    <Chip label="how-to" style={{background:'#ff9800', color: 'white'}}/>
-                    <Chip label="GitHub" style={{background:'#2196f3', color: 'white'}}/>
+                    <Chip label="social-media" style={{background:'#ff9800', color: 'white'}}/>
+                    <Chip label="recomendation-systems" style={{background:'#2196f3', color: 'white'}}/>
                     <CardActions style={{height: '3rem'}}>
-                        <Button size="small" color="primary">
-                            Learn More
-                        </Button>
+                        <a href="https://latifaabdullayeva.medium.com/%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-%D0%BF%D1%83%D0%B7%D1%8B%D1%80%D0%B8-%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%BE%D0%B2-%D0%B8-%D1%81-%D1%87%D0%B5%D0%BC-%D0%B5%D0%B3%D0%BE-%D0%B5%D0%B4%D1%8F%D1%82-593bda44cd6c"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           style={{textDecoration: 'none', color: 'black'}}>
+                            <Button size="small" color="primary">Learn More</Button>
+                        </a>
                     </CardActions>
                 </Card>
             </Grid>
