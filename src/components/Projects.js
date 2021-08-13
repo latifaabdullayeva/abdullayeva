@@ -58,6 +58,10 @@ function Projects() {
                 <Card className={classes.root}>
                     <CardActionArea>
                         {/*<Link to="/tracks" style={{textDecoration: 'none', color: 'black'}}>*/}
+                        <a href="https://latifaabdullayeva.github.io/musicorum/"
+                        target="_blank"
+                           rel="noopener noreferrer"
+                           style={{textDecoration: 'none', color: 'black'}}>
                         <CardMedia className={classes.media}
                                    image={musicorum}
                                    src={musicorum}
@@ -65,6 +69,7 @@ function Projects() {
                         <GridListTileBar title={"Musicorum"}
                                          subtitle={<span>Music web application </span>}/>
                         {/*</Link>*/}
+                        </a>
                     </CardActionArea>
                 </Card>
             </Grid>
@@ -72,6 +77,10 @@ function Projects() {
                 <Card className={classes.root}>
                     <CardActionArea>
                         {/*<Link to="/tracks" style={{textDecoration: 'none', color: 'black'}}>*/}
+                        <a href="https://github.com/latifaabdullayeva/abdullayeva"
+                        target="_blank"
+                           rel="noopener noreferrer"
+                           style={{textDecoration: 'none', color: 'black'}}>
                         <CardMedia className={classes.media}
                                    image={abdullayeva}
                                    src={abdullayeva}
@@ -79,6 +88,7 @@ function Projects() {
                         <GridListTileBar title={"Abdullayeva"}
                                          subtitle={<span>Personal website </span>}/>
                         {/*</Link>*/}
+                        </a>
                     </CardActionArea>
                 </Card>
             </Grid>
