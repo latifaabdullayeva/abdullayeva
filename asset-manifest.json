@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/abdullayeva/static/css/main.51056124.chunk.css",
-    "main.js": "/abdullayeva/static/js/main.98e3c968.chunk.js",
-    "main.js.map": "/abdullayeva/static/js/main.98e3c968.chunk.js.map",
+    "main.js": "/abdullayeva/static/js/main.bad8041b.chunk.js",
+    "main.js.map": "/abdullayeva/static/js/main.bad8041b.chunk.js.map",
     "runtime-main.js": "/abdullayeva/static/js/runtime-main.791aa042.js",
     "runtime-main.js.map": "/abdullayeva/static/js/runtime-main.791aa042.js.map",
     "static/js/2.7a2f3684.chunk.js": "/abdullayeva/static/js/2.7a2f3684.chunk.js",
@@ -18,8 +18,8 @@
     "static/media/bachelorUni.2089e523.png": "/abdullayeva/static/media/bachelorUni.2089e523.png",
     "static/media/LandingCover.css": "/abdullayeva/static/media/black.940b678b.jpg",
     "static/media/ergosignIntern.d3a082f8.png": "/abdullayeva/static/media/ergosignIntern.d3a082f8.png",
+    "static/media/filterbubble.f68dfd69.png": "/abdullayeva/static/media/filterbubble.f68dfd69.png",
     "static/media/girl.6659b662.png": "/abdullayeva/static/media/girl.6659b662.png",
-    "static/media/git.172eeaf3.jpg": "/abdullayeva/static/media/git.172eeaf3.jpg",
     "static/media/hri.4eb0ee57.jpg": "/abdullayeva/static/media/hri.4eb0ee57.jpg",
     "static/media/iconCypress.930666c3.png": "/abdullayeva/static/media/iconCypress.930666c3.png",
     "static/media/iconEWB.13f5ffd7.png": "/abdullayeva/static/media/iconEWB.13f5ffd7.png",
@@ -41,6 +41,6 @@
     "static/js/runtime-main.791aa042.js",
     "static/js/2.7a2f3684.chunk.js",
     "static/css/main.51056124.chunk.css",
-    "static/js/main.98e3c968.chunk.js"
+    "static/js/main.bad8041b.chunk.js"
   ]
 }
